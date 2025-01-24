@@ -32,7 +32,7 @@ function deleteContact() {
         console.log("Invalid.")
         return
     }
-    contacts.splice(number-1,1)
+    contacts.splice(number-1,1) // for removing elements
     console.log("Removed")
 }
 
